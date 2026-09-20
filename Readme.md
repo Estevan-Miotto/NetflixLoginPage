@@ -1,0 +1,1 @@
+Na primeira etapa escolhi como site para replicar a tela de login da netflix. Para começar criei o esqueleto da página, com todas as frases e botões. 
