@@ -1,0 +1,30 @@
+:root {
+    --vermelhoNetflix: #e50914;
+    --fundo: #000000;
+    --texto: #ffffff;
+    --textoSecundario: #b3b3b3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--fundo);
+    color: var(--texto);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
