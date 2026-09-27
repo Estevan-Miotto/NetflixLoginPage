@@ -33,6 +33,7 @@ main {
     
     
 }
+
 input {
     width: 100%;
     max-width: 400px;
@@ -43,6 +44,7 @@ input {
     border-radius: 5px;
     padding: 10px;
 }
+
 input::placeholder {
     color: var(--textoSecundario);
 }
@@ -60,9 +62,11 @@ button {
     border: none;
 
 }
+
 button:hover {
     background-color: #e6474f;
 }
+
 select {
     background-color: #171717;
     color: var(--texto);
@@ -71,6 +75,34 @@ select {
     padding: 10px;
     height: 40px;
 }
+
+h2 {
+    font-size: 30px;
+    font-weight:700;
+    margin: 0 0 10px;
+    color: var(--texto);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight:700;
+    margin: 0 0 15px;
+    color: var(--texto);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section p {
+    font-size: 13px;
+    color: var(--textoSecundario);
+    line-height: 1.5;
+    max-width: 400px;
+}
+
 footer {
     padding: 20px;
 }
