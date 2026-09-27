@@ -19,6 +19,9 @@ body {
 
 header {
     padding: 20px;
+    font-size: 30px;
+    color: var(--vermelhoNetflix);
+    letter-spacing: 3px;
 }
 
 main {
