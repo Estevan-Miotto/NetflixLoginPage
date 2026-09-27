@@ -105,4 +105,23 @@ section p {
 
 footer {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer a {
+    color: var(--textoSecundario);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer p {
+    color: var(--textoSecundario);
+    font-size: 16px;
+    margin: 0;
+}
+
+footer select {
+    width: 120px;
 }
