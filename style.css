@@ -125,3 +125,29 @@ footer p {
 footer select {
     width: 120px;
 }
+
+@media (min-width: 768px) {
+    main{
+        padding: 60px;
+    }
+
+    h2{
+        font-size: 36px;
+
+    }
+
+    footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+
+}
+
+
+
+
+
+
+}
