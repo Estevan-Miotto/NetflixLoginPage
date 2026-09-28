@@ -127,6 +127,10 @@ footer select {
 }
 
 @media (min-width: 768px) {
+    header {
+        padding: 10px 30px;
+    }
+    
     main{
         padding: 60px;
     }
